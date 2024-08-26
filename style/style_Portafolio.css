@@ -85,30 +85,14 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 .card {
-
     position: relative;
     width: 200px;
     height: 200px;   
     gap: 8px;
     margin: 30px;
     margin-top: 4%;
-    
-
-   
-
-    
-     
+      
 }
 
 .card div {
@@ -207,4 +191,5 @@ footer p{
     justify-content: center;
     gap: 30%;
     align-items: center;
+}
 }
