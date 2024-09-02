@@ -11,56 +11,45 @@
 </head>
 
 <body>
-       <!-----------------------------------HEADER---------------------------->
+    <!-----------------------------------HEADER---------------------------->
     <header class="header">
         <nav class="header__menu">
             <a class="header__menu__link" href="index.html">Home</a>
             <a class="header__menu__link" href="about.html">Sobre mi</a>
             <a class="header__menu__link">Blog</a>
             <a class="header__menu__link" href="contacto.html">Contacto</a>
-            <a class="header__menu__link"  href="portafolio.html">Portafolio</a>
+            <a class="header__menu__link" href="portafolio.html">Portafolio</a>
         </nav>
     </header>
-   <!-----------------------------------MAIN---------------------------->
+    <!-----------------------------------MAIN---------------------------->
     <main class=" contenedor">
 
-
         <div class="formulario">
-            <h1>Formulario de contacto</h1>
-
-            <div class="input">
-
-                    <input type="text" name="nombre" id="nombre" required="obligatorio"
-                        placeholder="Escribe tu nombre">
-
-                    <input type="email" name="email" id="email" required="obligatorio"
-                        placeholder="Escribe tu Email">
-
+            <h1>Formulario de Contacto</h1>
+            <div class="container">
+                <div class="input1">
+                    <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
                 </div>
-
-                <div class="input">
-                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
-
-
+                <div class="input2">
+                    <input type="number" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
                     <input type="text" name="asunto" id="assunto" required="obligatorio"
                         placeholder="Escribe un asunto">
                 </div>
-                <div>
-                    <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
-                        placeholder="Deja aquí tu comentario..."></textarea>
-                </div>
-
-
-                <a class="button" href="contacto.html">Enviar</a>
-
-                <p class="aviso">
-                    <span class="obligatorio"> Todos los campos son obligatorios. </span> 
-                </p>
+            </div>
+            <div class="textarea">
+                <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                    placeholder="Deja aquí tu comentario..."></textarea>
+            </div>
+            <a class="button" href="contacto.html">Enviar</a>
+            <p class="aviso">
+                <span class="obligatorio"> Todos los campos son obligatorios. </span>
+            </p>
 
             </form>
-      </div>
+        </div>
     </main>
-       <!-----------------------------------FOOTER---------------------------->
+    <!-----------------------------------FOOTER---------------------------->
     <footer class="footer">
         <div>
 
