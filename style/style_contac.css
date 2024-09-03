@@ -197,16 +197,15 @@ input{
 
 
 .footer {
-    
-        color: var(--color-primario);
-        display: flex;
-        justify-content:center;
-        font-size: 1.5 rem;
-        height: 70px;
-        padding-top: 30px;
-        font-size: x-large;
-        background: rgb(41, 83, 201, 0.6);
-       
+    font-size: x-large;
+    color: var(--color-primario);
+    display: flex;
+    justify-content:center;
+    font-size: 1.5 rem;
+   height: 70px;
+    padding-top: 30px;
+    font-size: x-large;
+    background: rgb(41, 83, 201, 0.6);
 
 }
 
@@ -237,10 +236,5 @@ input{
     .textarea{
         width: 50%;
     }
-    .footer{
-    display: flex;
-        flex-direction: column;
-        height: auto;
-        align-items: center;
-    }
+   
 }
