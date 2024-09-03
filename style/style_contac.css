@@ -251,20 +251,39 @@ span {
 
     .formulario h1 {
         font-size: 20px;
+        display: flex;
+        margin-left: 180px;
     }
 
     .input1,
     .input2 {
-
+        display: flex;
+      
+        margin-left: 10px;
         width: 28%;
 
     }
 
     .textarea {
-        width: 20%;
+        display: flex;
+        width: 40%;
+        margin-left: 180px;
     }
 
     .button {
         width: 28%;
+        display: flex;
+        margin-left: 180px;
+    }
+    .aviso{
+        display: flex;
+        width: 40%;
+        margin-left: 180px;
+    }
+    .footer{
+        display: flex;
+        padding-left: 10px;
+       
+       
     }
 }
