@@ -238,10 +238,14 @@ span {
         margin-top: 0px;
         padding-right: 0px;
         margin-right: 0px;
+        display: flex;
+        align-items: center;
     }
 
     .container {
         flex-direction: column;
+        align-items: center;
+        gap: 8px;
 
     }
 
@@ -257,7 +261,7 @@ span {
     }
 
     .textarea {
-        width: 28%;
+        width: 20%;
     }
 
     .button {
