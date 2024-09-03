@@ -237,7 +237,8 @@ span {
     .contenedor {
         margin-top: 0px;
         padding-right: 0px;
-        margin-right: 0px;
+        margin-right: 10px;
+        margin-left: 10px;
         display: flex;
         align-items: center;
     }
