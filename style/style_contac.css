@@ -19,7 +19,8 @@ body {
     box-sizing: border-box;
     background-color: var(--color-primario);
     color: var(--color-segundario);
-    background: url(../assets/4931029.jpg) no-repeat center top;
+  
+    height: 482px;
 
 
 }
@@ -221,20 +222,27 @@ input{
         gap: 30%;
         align-items: center;
     }
-  
+  .contenedor{
+    margin-top: 0;
+  }
     .container{
         flex-direction: column;
 
     }
+    .formulario h1{
+        font-size: 20px;
+    }
     .input1,
     .input2{
        
-        width: 50%;
+        width: 25%;
       
     }
    
     .textarea{
-        width: 50%;
+        width: 20%;
     }
-   
+    .button{
+        width: 20%;
+    }
 }
