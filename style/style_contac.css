@@ -20,7 +20,7 @@ body {
     background-color: var(--color-primario);
     color: var(--color-segundario);
   
-    height: 482px;
+    height: auto;
 
 
 }
@@ -235,14 +235,14 @@ input{
     .input1,
     .input2{
        
-        width: 25%;
+        width: 28%;
       
     }
    
     .textarea{
-        width: 20%;
+        width: 28%;
     }
     .button{
-        width: 20%;
+        width: 28%;
     }
 }
